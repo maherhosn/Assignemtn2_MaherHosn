@@ -14,7 +14,7 @@ namespace App1.Views
 		}
 
         //event handler for leaderbaord button
-        async void ButtonToLeaderboard(object sender, EventArgs e)
+        async void ButtonToScores(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new Leaderboard());
         }
@@ -22,7 +22,7 @@ namespace App1.Views
         //event handler for characters button
         async void ButtonToCharacters(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new ItemsPage());
+            await Navigation.PushAsync(new Characters());
         }
 
         //event handler for items button

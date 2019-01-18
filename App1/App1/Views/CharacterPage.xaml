@@ -15,8 +15,13 @@
                WidthRequest="300"
                HeightRequest="300"
                HorizontalOptions="Center" />
-     
-                <Button Text="Characters"
+
+            <Button Text="High Scores"
+                Font="Larger"
+                HorizontalOptions="Center"
+                Clicked="ButtonToScores"/>
+
+            <Button Text="Characters"
                 Font="Larger"
                 HorizontalOptions="Center"
                 Clicked="ButtonToCharacters"/>

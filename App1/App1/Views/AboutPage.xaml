@@ -38,7 +38,7 @@
                         <FormattedString>
                             <FormattedString.Spans>
                                 <Span Text="Student - Maher Aboul Hosn &#10;"/>
-                                <Span Text="CPSC-5250-Asignement 2 &#10;" />
+                                <Span Text="CPSC-5250-Asignement2 Week2&#10;" />
                                 <Span Text ="Date/Time - 01/17/2019, 8:00 PM &#10;" />
                             </FormattedString.Spans>
                         </FormattedString>
