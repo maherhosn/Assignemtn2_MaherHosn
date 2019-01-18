@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Views.CharacterPage">
+ 
+    <ContentPage.Content>
+        <StackLayout>
+            
+               <Label Text="Mellow Fox Game"
+               FontSize="40"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"/>
+
+                <Image Source="movingMonst.gif"
+               WidthRequest="300"
+               HeightRequest="300"
+               HorizontalOptions="Center" />
+     
+                <Button Text="Characters"
+                Font="Larger"
+                HorizontalOptions="Center"
+                Clicked="ButtonToCharacters"/>
+
+            <Button Text="Items"
+                Font="Larger"
+                HorizontalOptions="Center"
+                Clicked="ButtonToItems"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
